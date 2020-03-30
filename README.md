@@ -1,4 +1,13 @@
 # 52167-Programming-Scripting_Project
+Introduction:
+    This project will investigate the well-know Fishers Iris data set.Using this dataset and the python program, the user will be able to identfiy the difference species of Iris.
+    The Iris is a species of flowering plants with showy flowers. In 1936 Ronald Fisher used three Iris varieties to create the Iris flower data set to measure    
+Investigition to understand the dataset.
+    The dataset contains 150 entries of recorded values which were used to identify the different species of Iris  
+Results
+Discussion
+Acknowledgments
+DataSet summary: 
 The dataset contains samples of three species of Iris:
     1.Iris setosa
     2.Iris virginica
