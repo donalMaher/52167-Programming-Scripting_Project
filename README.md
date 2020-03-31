@@ -26,3 +26,7 @@ Discussion
 Acknowledgments
 
  
+Notes: 
+Summary is completed.
+Task 2 to be completed: The program saves a histogram of each variable to png files.
+Task 3 to be competed: The program outputs a scatter plot of each pair of varaibles.
