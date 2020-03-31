@@ -1,0 +1,7 @@
+import Fishers_Iris_Analysis
+Fishers_Iris_Analysis.meanVirginica()
+Fishers_Iris_Analysis.meanVericolor()
+Fishers_Iris_Analysis.meanSetosa()
+Fishers_Iris_Analysis.stdDevVirginica()
+Fishers_Iris_Analysis.stdDevVericolor()
+Fishers_Iris_Analysis.stdDevSetosa()

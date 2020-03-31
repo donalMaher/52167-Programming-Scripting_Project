@@ -1,4 +1,0 @@
-Exploring data analysis(EDA)
-Plot with Iris Flower dataset
-Interesting video @ https://www.youtube.com/watch?v=b7JuBsswDlo
-interesting video @ https://www.youtube.com/watch?v=11BFX7Ygtyo

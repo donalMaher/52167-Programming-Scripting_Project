@@ -1,0 +1,24 @@
+Mean for is species virginica is sepal_width 2.974 
+Mean for is species virginica is sepal_length 6.588 
+Mean for is species virginica is petal_lenght 5.552 
+Mean for is species virginica is petal_width 2.026 
+Mean for is species versicolor is sepal_width 2.77 
+Mean for is species versicolor is sepal_length 5.936 
+Mean for is species versicolor is petal_lenght 4.26 
+Mean for is species versicolor is petal_width 1.326 
+Mean for is species setosa is sepal_width 3.418 
+Mean for is species setosa is sepal_length 4.904 
+Mean for is species setosa is petal_lenght 1.464 
+Mean for is species setosa is petal_width 0.244 
+Standard Deviation for is species virginica is sepal_width 0.319 
+Standard Deviation for is species virginica is sepal_length 0.629 
+Standard Deviation for is species virginica is petal_lenght 0.546 
+Standard Deviation for is species virginica is petal_width 0.272 
+Standard Deviation for is species versicolor is sepal_width 0.311 
+Standard Deviation for is species versicolor is sepal_length 0.511 
+Standard Deviation for is species versicolor is petal_lenght 4.26 
+Standard Deviation for is species versicolor is petal_width 0.196 
+Standard Deviation for is species setosa is sepal_width 0.377 
+Standard Deviation for is species setosa is sepal_length 0.783 
+Standard Deviation for is species setosa is petal_lenght 0.172 
+Standard Deviation for is species setosa is petal_width 0.106 
