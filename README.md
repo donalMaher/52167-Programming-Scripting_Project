@@ -1,6 +1,9 @@
 # 52167-Programming-Scripting_Project
 Introduction:
-    This project will investigate the well-know Fishers Iris data set.Using the python program, the user will be able to identfiy the difference species of Iris.
+    This project will investigate the well-know Fishers Iris data set. The creation of a python program will allow for the delivery of analysis for the data set. Using the python program, the user will be able to identfiy the differences  between species of Iris .
+Running the code: 
+    navigate to the directory in which the analysis.py currently resides. write the command python analysis.py to run the code. 
+Overview:
     The Iris is a species of flowering plants with showy flowers. In 1936 Ronald Fisher a british statistican and biologist used three Iris varieties to create the Iris flower data set to create a example of linear discriminant analysis. This was accumpilised by measuring the features of each species.      
 Investigition to understand the dataset.
     The dataset used here is widely used to teach students techinques in statistics. the dataset is of good quality and without missing fields.
@@ -19,12 +22,13 @@ Investigition to understand the dataset.
         2.sepals width
         3.petals lenght
         4.petals width
+    These features will now be refered to as variables of the species. 
 "Wikipedia", Fisher developed a linear discrimant model to distinguish the species from each other. 
 The  term cluster analysis and the differences between supervised and unsupervised techniques in data mining.   
 Results
 Discussion
 Acknowledgments
-
+https://www.youtube.com/watch?v=GoVpgK1VzZU for the scatterplot. 
  
 Notes: 
 Summary is completed.

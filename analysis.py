@@ -20,6 +20,7 @@ def pairPlot():
     sns.set(style="whitegrid")
     iris = sns.load_dataset("iris")
     g = sns.pairplot(iris, hue="species",height=3)
+
     plt.show(g)
     
 def pairPlot1():
@@ -37,6 +38,34 @@ def pairPlot2():
     g.ax_joint.collections[0].set_alpha(0)
     g.set_axis_labels("$SepalLength(Cm)$", "$SepalWidth(Cm)$") 
     plt.show()
+
+def scatterplot1(var,var1):
+    iris = []
+    iris = pd.read_csv('iris.csv')
+    #g = sns.load_dataset(iris)
+    sns.regplot(x=iris[var],y=iris[var1],fit_reg=False)
+    #sns.lmplot(x=var,y=var1,data=iris)
+    plt.legend()
+    plt.show()
+def scatterplot(var,var1):
+    iris = pd.read_csv("iris.csv")
+    #iris.plot(kind = 'scatter', x=var, y=var1 )
+    sns.set_style("whitegrid")
+    sns.FacetGrid(iris,hue="species",height =8).map(plt.scatter,"sepal_length","sepal_width").add_legend()
+    plt.legend()
+    plt.show()
+
+
+def historgram(var):
+    data = pd.read_csv("iris.csv")
+    iris = data[var]
+    plt.hist(iris,bins=40,color = "purple")
+    plt.title("{} in cm".format(var)) 
+    plt.xlabel("{}_cm".format(var)) 
+    plt.ylabel("Count") 
+    plt.show()
+
+
 def std_dev(p1,p2):
     iris = []
     iris  = pd.read_csv(p1)
@@ -100,8 +129,5 @@ def stdDevSetosa():
 
 
 
-#meanpl()
-#meanpw()
-#meansl()
-#meansw()
+
 
