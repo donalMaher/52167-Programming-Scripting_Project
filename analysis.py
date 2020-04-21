@@ -88,8 +88,6 @@ def scatterplot(var,var1):
         #iris.plot(kind = 'scatter', x=var, y=var1 )
         sns.set_style("whitegrid")
         sns.FacetGrid(iris,hue="species",height =4).map(plt.scatter,var,var1).add_legend()
-        plt.legend()
-        #plt.show()
         plt.savefig("{}_{}_{}.png".format("Scatter_plot",var,var1))
         print("Saved to file ,{}_{}_{}.png".format("Scatter_plot",var,var1))
     except Exception as e:
