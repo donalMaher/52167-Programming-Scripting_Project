@@ -7,7 +7,13 @@ import seaborn as sns
 import os.path
 iris_dataset = pd.read_csv("iris.csv")
 iris_grps = iris_dataset.groupby("species")
-
+def pair_plot():
+    #https://www.youtube.com/watch?v=cpZExlOKFH4
+    #https://youtu.be/b7JuBsswDlo 
+    sns.set_style("whitegrid")
+    sns.pairplot(iris_dataset,hue="species" ,size=3,diag_kind="hist")
+    plt.savefig("pairPlot.png")
+    #plt.show()
 def des():
     data = iris_dataset.describe()
     print(data)
