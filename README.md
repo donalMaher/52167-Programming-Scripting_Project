@@ -3,7 +3,7 @@
 
     This project will investigate the well-know Fishers Iris data set. The creation of a python program will allow for the delivery of  analysis for the data set. Using the python program, the we will be able to identfiy the differences between species of Iris.
 ## Running the code: 
-    Navigate to the directory in which the analysis.py currently resides. write the command python analysisTest.py to run the code. 
+    Navigate to the directory in which the python program currently resides. write the command python Fishers_Iris_Analysis_summary_Test.py to run the code. 
 ## Overview:
     The Iris is a species of flowering plants with showy flowers. In 1936 Ronald Fisher a british statistican and biologist used three Iris varieties to create the Iris flower data set to create a example of linear discriminant analysis. This was accumpilised by measuring the features of each species.      
 ## Investigition to understand the dataset.
