@@ -12,7 +12,7 @@
     
     The dataset contains 150 entries of recorded values which were used to identify the different species of Iris.
     Using scatterplot 1 we see the seperation of the species. This two demisionational scatter plot shows the three different types of the species based on the features of the flower which we call independent variables or predictors. These are sepal length, sepal width, petal length, petal width. This means there are 4 dimensions.
-    ![](images/scatterplot_sw_sl.png)
+    <img src="https://github.com/donalMaher/52167-Programming-Scripting_Project/blob/master/scatterplot_sw_sl.png">
     Its clear to see that from the two scatter plots that there is a clear seperation between the blue points and the orange and green points. From this we can say that one type of species is clearly defined. The other two are not.  
  ## DataSet summary:
     ### About the data set
