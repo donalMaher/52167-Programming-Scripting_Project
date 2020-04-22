@@ -11,7 +11,7 @@ def pair_plot():
     #https://www.youtube.com/watch?v=cpZExlOKFH4
     #https://youtu.be/b7JuBsswDlo 
     sns.set_style("whitegrid")
-    sns.pairplot(iris_dataset,hue="species" ,size=3,diag_kind="hist")
+    sns.pairplot(iris_dataset,hue="species" ,height=3,diag_kind="hist")
     plt.savefig("pairPlot.png")
     #plt.show()
 def des():
@@ -74,24 +74,40 @@ def formatoutput(p1,p2,p3,p4):
     roundmean = round(p1,3)
     return "{} for species {} is {} {} ".format(p4,p2,p3,roundmean)
 
-def historgram(var):
+def historgram1():
     try:
-        data = pd.read_csv("iris.csv")
-        iris = data[var]
-        plt.hist(iris,bins=51,color = "green")
-        plt.title("{} in cm".format(var)) 
-        plt.xlabel("{}_cm".format(var)) 
-        plt.ylabel("Count") 
-        #plt.show()
-        plt.savefig("histogram_{}.png".format(var))
-        print("Saved to file ,histogram_{}.png".format(var))
+        counter = 0
+        while counter != 4:
+            variables = ["sepal_length","sepal_width","petal_length","petal_width"]
+            #color = ["green","orange", "red","black",]
+            data = pd.read_csv("iris.csv")
+            iris = data[variables[counter]]
+            plt.hist(iris,bins=10,color="orange")
+            plt.title("{} in cm".format(variables[counter])) 
+            plt.xlabel("{}_cm".format(variables[counter])) 
+            plt.ylabel("Count")
+            #plt.legend(var) 
+            #plt.show()
+            plt.savefig("histogram_{}.png".format(variables[counter]))
+            print("Saved to file ,histogram_{}.png".format(variables[counter]))
+            counter += 1
     except Exception as e:
         print("Histogram error " ,e)
+def histogram():
+    var = ["petal_length","petal_width","sepal_length","sepal_width"]
+    x = len(var)
+    i=0
+    iris = iris_dataset
+    g=sns.FacetGrid(iris,col="species")
+    while i != x:
+        g.map(plt.hist,var[i],bins=5,color="green")
+        g.set(ylabel="Count")
+        plt.savefig("{}_{}.png".format("histogram",var[i]))
+        i+=1
 
 def scatterplot(var,var1):
     try:
-        iris = pd.read_csv("iris.csv")
-        #iris.plot(kind = 'scatter', x=var, y=var1 )
+        iris = iris_dataset
         sns.set_style("whitegrid")
         sns.FacetGrid(iris,hue="species",height =4).map(plt.scatter,var,var1).add_legend()
         plt.savefig("{}_{}_{}.png".format("Scatter_plot",var,var1))
