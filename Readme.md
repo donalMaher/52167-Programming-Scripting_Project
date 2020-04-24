@@ -1,27 +1,5 @@
 # Programming and Scripting 2020 Project
 
-# Contents
-
-[Abstract 2](#_Toc38483456)
-
-[Introduction 2](#_Toc38483457)
-
-[Materials and Methods 2](#_Toc38483458)
-
-[Results 3](#_Toc38483459)
-
-[Discussion 6](#_Toc38483460)
-
-[Investigation: 6](#_Toc38483461)
-
-[Dataset: 11](#_Toc38483462)
-
-[Conclusion 15](#_Toc38483464)
-
-[References 16](#_Toc38483465)
-
-#
-
 ## Abstract
 
 Using Python libraries imported into a python script to create a summary of each variable that included the Range, Mean, Median, Standard Deviation and the Quartiles. Each species variables displayed with Histograms, Scatterplots and Pair Plot.
