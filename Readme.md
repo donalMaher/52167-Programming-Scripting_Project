@@ -23,15 +23,17 @@ This was accomplished by import various libraries into python using the Visual s
 ## Materials and Methods
 
 1. Python:
-  1. Pandas: this fast, powerful and flexible open source software used for data analysis and manipulation tool. [pandas](https://pandas.pydata.org/)
-  2. Matplotlib: Is a library for creating static, animated and interactive visualization in Python. [matlablib](https://matplotlib.org/)
-  3. Numpy: This library is a fundamental package for scientific computing. [numpy](https://numpy.org/)
-  4. Seaborn: Used in Python for data statistical data visualization library based on matplotlib. [seaborn](https://seaborn.pydata.org/)
+  1. Pandas: this fast, powerful and flexible open source software used for data analysis and manipulation tool. https://pandas.pydata.org/
+  2. Matplotlib: Is a library for creating static, animated and interactive visualization in Python. https://matplotlib.org/
+  3. Numpy: This library is a fundamental package for scientific computing. https://numpy.org/
+  4. Seaborn: Used in Python for data statistical data visualization library based on matplotlib. https://seaborn.pydata.org/
 2. Fishers Iris Dataset:
-3. GitHub: [GitHub](https://github.com/donalMaher/52167-Programming-Scripting\_Project)
+3. GitHub: https://github.com/donalMaher/52167-Programming-Scripting\_Project
 4. Running the code: Navigate to where you have download the python script via your command prompt &quot;cmd&quot; run the command &quot;python analysis\_test.py&quot; prerequisite, must have python installed on your computer.
 
-![](Running the code.png)Figure 1 running the code
+![](RackMultipart20200424-4-tjis8w_html_5f32bae2ce452e08.png)
+
+Figure 1 running the code
 
 ## Results
 
@@ -99,6 +101,7 @@ Code:
 | ![](RackMultipart20200424-4-tjis8w_html_345afa7b79bde4ad.png) |
 | --- |
 
+
 #### Dispersion:
 
 How spread out the values are around the average. If the values are close that to the average, and then the iris dataset grouped by species has low dispersion and the opposite for high.
@@ -153,11 +156,11 @@ Code:
 
 The simples form of summary statistics but it&#39;s important. It&#39;s simply the number of observations.
 
-### Shape
+#### Shape
 
 The shape of the data affects the type of summary statistics that best summarize them. The &quot;shape&quot; refers to how the data values are distributed across the range of values in the sample. Generally you expect there to be a &quot;cluster&quot; of values around the average. It is important to know if the values are more or less symmetrically arranged around the average, or if there are more values to one side than the other.
 
-#### Histogram:
+##### Histogram:
 
 The histogram: represents the frequency distribution of data point. Frequency distribution is useful for showing the occurrence of a variable.
 
@@ -202,11 +205,9 @@ Code:
 
 Figure 11 Pair plot code
 
-####
+##### Finding the species type
 
-#### Finding the species type
-
-##### Fishers Linear Discriminant Analysis (LDA)
+###### Fishers Linear Discriminant Analysis (LDA)
 
 Fisher developed this dimensional reduction technique to reduce the dimensionality for high dimensional data. This is used for supervised classifications problems.
 
@@ -255,7 +256,7 @@ Unsupervised learning is modelling the structure or the distribution of the data
 3. K-means: This identifies the number of centre points (centroids). This is the averaging of the data finding the centre points. The k-means method will produce k different clusters and are placed as far away as possible, taking the each point belonging to that dataset and associate with the nearest centre point. The when there so no point pending, then positions of k centre point is recalculated, and this method is repeated until the centre point no longer move.
 4. Association: The discovering of interesting relationships between variables in large datasets
 
-##### Classification of the species
+###### Classification of the species
 
 | ![](RackMultipart20200424-4-tjis8w_html_6d5fdc7e86390144.png) |
 | --- |
@@ -264,17 +265,16 @@ Figure 12 the classification of the species
 
 Looking at the species versicolor. It can be seen when trying to differentiate between versicolor species there are some virginica species there are some outliers. These could be described as errors in classification when both species over-lap in the petal length and petal width. To explain this, this could be a mistake in classification of the species type. Both types of species when the petal length gets above 1.6 cm it become difficult to differentiate between both species types. The classification becomes difficult and errors are expected when only two variables are used to determine the species type.
 
-##### Model:
+###### Model:
 
 | The model to separate and classify the species could be as simple as:If(petal\_lenght is less than or equal to 2 and petal\_width is less than or equal to 0.75): species = setosaElse if : (petal\_lenght is than 2 and petal\_width is less than or equal to 1.65) species= versicolorElse: species= virginica
  |
 | --- |
 
-##
 
-## Dataset:
+### Dataset:
 
-### About the data set
+#### About the data set
 
 The Iris flower data set or Fisher&#39;s Iris data set is a multivariate data set introduced by the British statistician and biologist Ronald Fisher in his 1936 paper. This is a very famous and widely used dataset by everyone trying to learn machine learning and statistics. The data set consists of 50 samples from each of three species of Iris (Iris setosa, Iris virginica and Iris versicolor). Four features were measured from each sample: the length and the width of the sepals and petals, in centimetres. The fifth column is the species of the flower observed.
 
@@ -303,7 +303,7 @@ The four features/independent variables that were measured to determine the spec
 
 There are 150 entries in total in the dataset
 
-# Conclusion
+## Conclusion
 
 - Python
 
@@ -329,7 +329,7 @@ Scatterplots give a better representation than Histograms in this case. And from
 
 This project gives insights into various machine learning concepts supervised and unsupervised learning, Fishers LDA and PDA. While I had attempted to code LDA into this project I failed to get find a reasonable an uncompleted and simplified example of this technique in python even though I found a very good blog on the topic [7] and settled on describing the process. And will be looking forward to diving further into this topic in the coming semesters.
 
-# References
+## References
 
 | 1 | Python, p, (2020),statistics — Mathematical statistics functions — Python 3.8.2 documentation, https://docs.python.org/3/library/statistics.html,(23/03/2020)
  |
@@ -346,5 +346,3 @@ This project gives insights into various machine learning concepts supervised an
 | 7 | Python LDA (2014), python LDA, [https://sebastianraschka.com/Articles/2014\_python\_lda.html](https://sebastianraschka.com/Articles/2014_python_lda.html), (17,04,2020) |
 | 8 | Jake vanderplas, 2017, _Python data science handbook_,1st,O&#39;Reilly, Sebastopol |
 | 9 | https://www.youtube.com/watch?v=cpZExlOKFH4https://youtu.be/b7JuBsswDlo  |
-
-5
