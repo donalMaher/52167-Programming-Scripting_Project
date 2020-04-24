@@ -7,13 +7,15 @@ import seaborn as sns
 import os.path
 iris_dataset = pd.read_csv("iris.csv")
 iris_grps = iris_dataset.groupby("species")
+
+#the pair plot
 def pair_plot():
-    #https://www.youtube.com/watch?v=cpZExlOKFH4
-    #https://youtu.be/b7JuBsswDlo 
     sns.set_style("whitegrid")
     sns.pairplot(iris_dataset,hue="species" ,height=3,diag_kind="hist")
     plt.savefig("pairPlot.png")
-    #plt.show()
+
+
+
 def des():
     data = iris_dataset.describe()
     print(data)
@@ -44,6 +46,7 @@ def find_range(s):
 def comprange():
     data = iris_grps.aggregate(find_range)
     return data.to_string()
+
 #standard dev
 def std_dev():
     data = iris_grps.std()
@@ -54,16 +57,20 @@ def iris_mean():
     data = iris_grps.mean()
     return data.to_string()
 
+#get the median of each species
 def iris_median():
     data = iris_grps.median()
     return data.to_string()
+
+#get the 1st quantile 
 def quantile1():
     data = iris_grps.quantile(.25)
     return data.to_string()
-
+#get the 3rd quantile
 def quantile3():
     data = iris_grps.quantile(.75)
     return data.to_string()
+# inner quantile range
 def quantile2():
     data = (iris_grps.quantile(.75) - iris_grps.quantile(.25))
     return data.to_string()
@@ -93,19 +100,37 @@ def historgram1():
             counter += 1
     except Exception as e:
         print("Histogram error " ,e)
+#This function will create four histograms. 
 def histogram():
-    var = ["petal_length","petal_width","sepal_length","sepal_width"]
-    x = len(var)
-    i=0
-    iris = iris_dataset
-    g=sns.FacetGrid(iris,col="species")
-    while i != x:
-        g.map(plt.hist,var[i],bins=5,color="green")
-        g.set(ylabel="Count")
-        plt.savefig("{}_{}.png".format("histogram",var[i]))
-        i+=1
-
+    #Try this code and catch any exections
+    try:
+        #Create a array of column names so the caller will not have to pass them in 
+        var = ["petal_length","petal_width","sepal_length","sepal_width"]
+        x = len(var)
+        i=0
+        # dataset already imported
+        iris = iris_dataset
+        #create an seaborn facegrid on each species
+        g=sns.FacetGrid(iris,col="species")
+        # loop to create the histograms and save to a file.
+        while i != x:
+            g.map(plt.hist,var[i],bins=5,color="green")
+            g.set(ylabel="Count")
+            plt.savefig("{}_{}.png".format("histogram",var[i]))
+            i+=1
+    except Exception as e:
+        print("Histogram error " ,e)
+  
+#Scatter plot
+#uses Seaborn FacetGrid class. This useful when you want to visualize the 
+# distribution of a variable or the relationship 
+# between multiple variables separately within subsets of your dataset. 
+# A FacetGrid can be drawn with up to three dimensions: row, col, and hue. 
+# The first two have obvious correspondence with the resulting array of axes; 
+# think of the hue variable as a third dimension along a depth axis, 
+# where different levels are plotted with different colors.
 def scatterplot(var,var1):
+    #try and catch execptions
     try:
         iris = iris_dataset
         sns.set_style("whitegrid")
@@ -114,6 +139,8 @@ def scatterplot(var,var1):
         print("Saved to file ,{}_{}_{}.png".format("Scatter_plot",var,var1))
     except Exception as e:
         print("Scatterplot error",e)
+
+
 def std_plot():
     sns.lmplot(x="sepal_length",y="sepal_width",hue="species",data=iris_dataset)
     #plt.show()

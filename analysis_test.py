@@ -7,6 +7,6 @@ analysis.scatterplot("petal_length","petal_width")
 analysis.pair_plot()
 #Create summary.txt
 analysis.writeToAFile
-#analysis.std_plot
+
 
 
