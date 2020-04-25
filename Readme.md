@@ -14,7 +14,7 @@ Objectives of this project will be to:
 
 - Explain the benefits of using Python in the analysis of datasets.
 - Present the results of data analysis using the Fishers dataset
-- Research Fisher&#39;s Linear Discriminant Analysis(LDA)
+- Research Fishers Linear Discriminant Analysis(LDA)
 - To present the code that will show to the user the benefits of ease of use of python in data analysis.
 - And to expand knowledge of data analysis and python.
 
@@ -29,9 +29,7 @@ This was accomplished by import various libraries into python using the Visual s
   4. Seaborn: Used in Python for data statistical data visualization library based on matplotlib. [seaborn](https://seaborn.pydata.org/)
 2. Fishers Iris Dataset:
 3. GitHub: [GitHub](https://github.com/donalMaher/52167-Programming-Scripting\_Project)
-4. Running the code: Navigate to where you have download the python script via your command prompt run the command python analysis_test.py; prerequisite, must have python installed on your computer.
+4. Running the code: Navigate to where you have download the python script via your command prompt run the command "python analysis_test.py" prerequisite, must have python installed on your computer.
 
 ![](Running the code.png)
-
-Figure 1 running the code
 
