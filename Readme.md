@@ -1,6 +1,7 @@
 # Programming and Scripting 2020 Project
 
 ## Abstract
+Fill documents of this report @ Programming and Scripting 2020 Project.docx 
 
 Using Python libraries imported into a python script to create a summary of each variable that included the Range, Mean, Median, Standard Deviation and the Quartiles. Each species variables displayed with Histograms, Scatterplots and Pair Plot.
 
