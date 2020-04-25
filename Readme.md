@@ -31,5 +31,5 @@ This was accomplished by import various libraries into python using the Visual s
 3. GitHub: [GitHub](https://github.com/donalMaher/52167-Programming-Scripting\_Project)
 4. Running the code: Navigate to where you have download the python script via your command prompt run the command "python analysis_test.py" prerequisite, must have python installed on your computer.
 
-![](Running the code.png)
+![Figure1](Running the code.png)
 
