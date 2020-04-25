@@ -1,6 +1,7 @@
 # Programming and Scripting 2020 Project
 
 ## Abstract
+Fill documents of this report @ Programming and Scripting 2020 Project.docx 
 
 Using Python libraries imported into a python script to create a summary of each variable that included the Range, Mean, Median, Standard Deviation and the Quartiles. Each species variables displayed with Histograms, Scatterplots and Pair Plot.
 
@@ -31,7 +32,7 @@ This was accomplished by import various libraries into python using the Visual s
 3. GitHub: [GitHub](https://github.com/donalMaher/52167-Programming-Scripting\_Project)
 4. Running the code: Navigate to where you have download the python script via your command prompt run the command "python analysis_test.py" prerequisite, must have python installed on your computer.
 
-![Figure1](Running the code.png)
+![Figure1](Running_the_code.png)
 
 ## Results
 
@@ -47,9 +48,9 @@ Histogram: petal length
 ![Figure 7 sepal length vs sepal width](Scatter_plot_sepal_length_sepal_width.png)
  
 Pair Plot
- ![](pairPlot.png)
+![](pairPlot.png)
 Figure 8 Pair plot
-Code ![](RackMultipart20200424-4-tjis8w_html_c6762d5066ee19bc.gif)
+
 
 ## Discussion
 
