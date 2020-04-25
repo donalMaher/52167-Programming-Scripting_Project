@@ -33,3 +33,42 @@ This was accomplished by import various libraries into python using the Visual s
 
 ![Figure1](Running the code.png)
 
+## Results
+
+The results of call the python script are shown here:
+
+
+Histogram: petal length 
+![Figure 2 Histogram petal length](histogram_petal_length.png)
+![Figure 3 Histogram petal width](histogram_petal_width.png)
+![Figure 4 Histogram Sepal Length ](histogram_sepal_length.png)
+![Figure 5 Histogram Sepal width](histogram_sepal_width.png) 
+![Figure 6 Petal length vs Petal width ](Scatter_plot_petal_length_petal_width.png)
+![Figure 7 sepal length vs sepal width](Scatter_plot_sepal_length_sepal_width.png)
+ 
+Pair Plot
+ ![](pairPlot.png)
+Figure 8 Pair plot
+Code ![](RackMultipart20200424-4-tjis8w_html_c6762d5066ee19bc.gif)
+
+## Discussion
+
+### Investigation:
+
+The analysis of the dataset will be a compressive summary of the data contained with.
+
+The summary statistics:
+
+There are four key areas is a summary
+
+1. Centrality: the middle value or average
+2. Dispersion: how the spread out the values are from the average
+3. Replication: how many values there are in the sample
+4. Shape: The data distribution.
+
+#### Centrality:
+
+The Average is an important measure is statically analysis. It gives an idea about where the data seems to be clustered around. In this summary the mean and the median was calculated.
+
+1. Mean:
+
