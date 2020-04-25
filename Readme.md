@@ -171,13 +171,15 @@ Maximize the distance between means and minimize the variation.
 This dimensionality reduction technique is the pre-processing step in machine learning and pattern classification. This is interested on maximizing the separation between the two groups so we can separate into categories which creates a new axis and maximize the distance between means
 
 Minimize the variations (called scatter) (s2) within each category
+![](images/Equation1.PNG)
 
 Where µ1 is the mean of the first variable and µ2 is the 2nd variable this can be summed into distance between the means d
+![](images/Equation2.PNG)
 
 If we apply this to the three species types then we would find the mean of each type and figure out a central point of all the data points and measure the distance (d) between the mean of each type and the central point.
 
 Now the equation is
-
+![](images/Equation3.PNG)
 Using LDA defines new x and y axis which reduces the number of dimensions allowing for separation of the classification of the data. With the species types begin greater than 2 ,LDA creates a plain and lots that data into 3 categories, in this case it&#39;s the species types
 
 The term cluster analysis and the differences between supervised and unsupervised techniques in data mining.
