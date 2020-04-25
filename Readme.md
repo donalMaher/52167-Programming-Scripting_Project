@@ -23,13 +23,13 @@ This was accomplished by import various libraries into python using the Visual s
 ## Materials and Methods
 
 1. Python:
-  1. Pandas: this fast, powerful and flexible open source software used for data analysis and manipulation tool. https://pandas.pydata.org/
-  2. Matplotlib: Is a library for creating static, animated and interactive visualization in Python. https://matplotlib.org/
-  3. Numpy: This library is a fundamental package for scientific computing. https://numpy.org/
-  4. Seaborn: Used in Python for data statistical data visualization library based on matplotlib. https://seaborn.pydata.org/
+  1. Pandas: this fast, powerful and flexible open source software used for data analysis and manipulation tool. (pandas)(https://pandas.pydata.org/)
+  2. Matplotlib: Is a library for creating static, animated and interactive visualization in Python. (matplotlib)(https://matplotlib.org/)
+  3. Numpy: This library is a fundamental package for scientific computing. (numpy)(https://numpy.org/)
+  4. Seaborn: Used in Python for data statistical data visualization library based on matplotlib. (seaborn)(https://seaborn.pydata.org/)
 2. Fishers Iris Dataset:
-3. GitHub: https://github.com/donalMaher/52167-Programming-Scripting\_Project
-4. Running the code: Navigate to where you have download the python script via your command prompt &quot;cmd&quot; run the command &quot;python analysis\_test.py&quot; prerequisite, must have python installed on your computer.
+3. GitHub: (GitHub)https://github.com/donalMaher/52167-Programming-Scripting\_Project
+4. Running the code: Navigate to where you have download the python script via your command prompt run the command python analysis_test.py; prerequisite, must have python installed on your computer.
 
 ![](RackMultipart20200424-4-tjis8w_html_5f32bae2ce452e08.png)
 
