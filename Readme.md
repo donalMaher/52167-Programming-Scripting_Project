@@ -71,4 +71,71 @@ There are four key areas is a summary
 The Average is an important measure is statically analysis. It gives an idea about where the data seems to be clustered around. In this summary the mean and the median was calculated.
 
 1. Mean:
+![](images/Mean.PNG)
 
+It can be seen that with two lines of code the mean of the species variable can be displayed.
+
+1. Median:
+
+The mean is average of the values. The median is the measure of central tendency number in a sorted list. The advantage of the median over the mean the median is not skewed so much by extremely large or small values.
+
+![Median](images/Median.PNG)
+
+
+#### Dispersion:
+
+How spread out the values are around the average. If the values are close that to the average, and then the iris dataset grouped by species has low dispersion and the opposite for high.
+
+There are several choices to get the dispersion. This summary has the following:
+
+1. Standard Deviation :
+
+This is used when the data is normally distributed. An, average deviation from the mean.
+
+In python its not difficult to calculate this.
+
+Standard Deviation:
+
+This means that the standard deviation is less that 1 standard deviation from the mean.
+
+Code:
+![](images/standard.PNG)
+
+1. Inter-Quartile range (IQR)
+
+Used when the data that is not normally distributed
+
+1. Inter- Quartile range:
+
+![](images/InnerQRange.PNG)
+1. Range
+
+The range is the difference between the max and the min values
+
+![](images/Range.PNG)
+
+#### Replication:
+
+The simples form of summary statistics but its important. Its simply the number of observations.
+
+#### Shape
+
+The shape of the data affects the type of summary statistics that best summarize them. The &quot;shape&quot; refers to how the data values are distributed across the range of values in the sample. Generally you expect there to be a &quot;cluster&quot; of values around the average. It is important to know if the values are more or less symmetrically arranged around the average, or if there are more values to one side than the other.
+
+##### Histogram:
+
+The histogram: represents the frequency distribution of data point. Frequency distribution is useful for showing the occurrence of a variable.
+
+In figure 1, the axis y is count and x axis is. In the figures show length and width show no Determining of the species. Even if the data was cluster in the species
+
+Code:
+
+![](images/Range.PNG)
+
+Figure 9 Histogram code
+
+_ **The scatter plot** _:
+
+This 2 dimensional plot shows the sepal length and sepal width it&#39;s clear that the blue points are easily determining one of the species, but the other 2 cannot be identified as individual species as they cannot be separated from each other
+
+Linear discriminant analysis:
